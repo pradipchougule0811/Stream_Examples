@@ -13,6 +13,8 @@ public class StreamMatchExample
         Boolean r1 = s1.allMatch(e->e.startsWith("A"));
         System.out.println(r1);
 
+
+
         Stream<String> s2 =Stream.of("Arun", "Kiran", "Vijay" ,"Varun","Viraj");
         Boolean r2 = s2.noneMatch(e->e.startsWith("A"));
         System.out.println(r2);
